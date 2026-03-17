@@ -1031,7 +1031,11 @@
        Coluna esquerda NÃO encolhe: o container fica maior
     =================================================== */
     @media (min-width: 901px) {
-      .hero { min-height: auto; }
+      .hero {
+        min-height: 0;
+        height: auto;
+        padding-bottom: 48px;
+      }
     }
 
     @media (min-width: 1101px) {
